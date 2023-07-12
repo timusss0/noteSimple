@@ -35,3 +35,21 @@ function renderTask(){
 }
 
 
+function addTask(e){
+
+    e.preventDefault()
+
+
+    newTask = taskInput.value.trim()
+
+
+    if(newTask == ''){
+        task.push(newTask)
+        taskInput.value = ''
+        renderTask()
+    }
+
+
+    
+}
+
