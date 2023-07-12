@@ -16,7 +16,7 @@ const taskList = document.querySelector('#task-list');
 
            const deleteButton = document.createElement('button');
     deleteButton.classList.add('text-red-500');
-    deleteButton.innerHTML = '<img src="svg/icons8-trash(1).svg" class="w-12">'
+    deleteButton.innerHTML = '<img src="svg/icons8-trash.svg" class="w-12">'
     deleteButton.addEventListener('click', () => {
         deleteTask(index);
       });
