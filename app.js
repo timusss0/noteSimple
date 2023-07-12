@@ -49,7 +49,14 @@ function addTask(e){
         renderTask()
     }
 
+    function deletTask(index){
+        task.splice(index , 1)
+        renderTask()
+    }
 
-    
+    taskForm.addEventListener('submit' , addTask)
+
+    renderTask()
+
 }
 
